@@ -1,5 +1,5 @@
 # isidicon
-This Docker image contains the Isilon Data Insight Collector software that monitors Dell/EMC Isilon OneFS clusters
+This Docker image contains the Isilon Data Insight Connector software that monitors Dell/EMC Isilon OneFS clusters
 
 The connector works well when run from an interactive shell but failed when launched from a
 process managing entity (initd, systemd, dockerd, supervisord). The reason is a fork or exec that
