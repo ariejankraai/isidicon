@@ -1,6 +1,7 @@
 FROM debian:jessie
 MAINTAINER Arie Jan Kraai <ariejankraai@persijn.net>
-LABEL version="0.6 Using supervisord with autorestart = false to enable automated startups"
+LABEL version="1.0 First publicly available version"
+# LABEL version="0.6 Using supervisord with autorestart = false to enable automated startups"
 
 # Note: containers running the Isilon Data Insights connector depend on influxdb and grafana containers
 ### TODO:
@@ -8,7 +9,6 @@ LABEL version="0.6 Using supervisord with autorestart = false to enable automate
 
 ### DONE:
 # Run the program as an ordinairy user -> for now a su on the start-line is used
-# Make timezone runtime selectable -> try making it an environment variable for docker run -e
 
 # Set noninteractive mode for apt-get
 ENV DEBIAN_FRONTEND noninteractive
