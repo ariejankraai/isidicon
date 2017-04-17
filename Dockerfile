@@ -1,6 +1,7 @@
 FROM debian:jessie
 MAINTAINER Arie Jan Kraai <ariejankraai@persijn.net>
-LABEL version="1.0 First publicly available version"
+LABEL version="1.0"
+LABEL description="First publicly available version"
 # LABEL version="0.6 Using supervisord with autorestart = false to enable automated startups"
 
 # Note: containers running the Isilon Data Insights connector depend on influxdb and grafana containers
